@@ -4,4 +4,4 @@ This container should be used as a base for complex containers, which needs to m
 To add .conf files for managing services, add them to /etc/supervisor/conf.d/  
 
 Sample usage:  
-`docker run -P -d --name supervisor bsarda/supervisor`  
+`docker run -d --name supervisor bsarda/supervisor`  

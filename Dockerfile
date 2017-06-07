@@ -1,10 +1,10 @@
 # written by Benoit Sarda
-# base for containers - uses supervisor to start multiple services. 
+# base for containers - uses supervisor to start multiple services.
 #
 #   bsarda <b.sarda@free.fr>
 #
 FROM centos:centos7.2.1511
-MAINTAINER Benoit Sarda <b.sarda@free.fr>
+LABEL maintainer "b.sarda@free.fr"
 
 # install packages
 RUN yum install -y iproute net-tools && \
